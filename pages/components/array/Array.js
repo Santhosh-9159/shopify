@@ -1,3 +1,4 @@
+import React from 'react'
 import {FaFacebook} from 'react-icons/fa'
 import {GrTwitter} from 'react-icons/gr'
 import {FiInstagram} from 'react-icons/fi'
@@ -58,3 +59,6 @@ export const Navicons =[
     
 
 ]
+export default function Array() {
+ 
+}
