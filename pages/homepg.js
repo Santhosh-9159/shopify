@@ -6,7 +6,7 @@ import Image from 'next/image'
 function Homepg() {
     const [apiProducts, setapiProducts] = useState([])
     const fetchProducts = async () => {
-         await fetch(APIKEY).then((res)=>res.json()).then((res)=>setapiProducts(res))
+         await fetch("https://fakestoreapi.com/products").then((res)=>res.json()).then((res)=>setapiProducts(res))
     }
 
     useEffect(() => {
